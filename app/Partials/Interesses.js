@@ -26,7 +26,7 @@ export default function Interesses() {
 				img={leiloesOnline}
 				stack={["Adobe Creative Suite", "InkScape", "Scribus"]}
 			>
-				<p>Do mesmo modo que para a gestão da Leiloeira, encontrei em mim mesmo uma forma de resolver o problema, também o design gráfico, em virtude da publicação de catálogos de leilões, foi um 'must have skill'. Fiz o curso de Design Gráfico da ETIC e dei por mim a fazer coisas nessa área bem para além dos catálogos.</p>
+				<p>Do mesmo modo que para a gestão da Leiloeira, encontrei em mim mesmo uma forma de resolver o problema, também o design gráfico, em virtude da publicação de catálogos de leilões, foi um &apos;must have skill&apos;. Fiz o curso de Design Gráfico da ETIC e dei por mim a fazer coisas nessa área bem para além dos catálogos.</p>
 			</Projecto>
 			<Projecto
 				title="Emacs & Org Mode"

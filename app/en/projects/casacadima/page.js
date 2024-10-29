@@ -3,7 +3,7 @@
 import SideBar from "../../Components/SideBar";
 import Link from "next/link";
 import Image from "next/image";
-import casaCadima from "../../img/casaCadima.png";
+import casaCadima from "../../../img/casaCadima.png";
 
 export default function CasaCadima() {
 	return (
@@ -20,20 +20,21 @@ export default function CasaCadima() {
 						className="rounded-lg ring-2 ring-offset-2 ring-white/50 w-2/3 mx-auto"
 					/>
 				</div>
-				<p className="p-normal">Sentado a uma mesa de um restaurante, em conversa sobre o que estou a fazer, um amigo, daqueles únicos, pediu-me para o ajudar a desenvolver dois websites simples, um deles apenas institucional, o outro para divulgação da sua casa de Alojamento Local na Ilha do Pico.</p>
-				<p className="pb-6 text-sm text-white font-bold"> O requisito? &quot;Preciso disso numa semana e o or&ccedil;amento &eacute; muito baixo.&quot;</p>
-				<p className="p-normal">Munido da experiência já adquirida e esta ideia de que tudo se aprende, agarrei o projecto, devidamente comprometido.</p>
+				<p className="p-normal">Sitting at a restaurant table, while discussing what I was doing, a friend, one of those unique ones, asked me to help develop two simple websites, one of them just institutional, and the other to promote his local accommodation house on Pico Island.</p>
+				<p className="pb-6 text-sm text-white font-bold">The requirement? &apos;I need this in a week and the budget is very low.&apos;</p>
+				<p className="p-normal">Armed with the experience I had already gained and the idea that everything can be learned, I took on the project, fully committed.</p>
 				<p className="p-normal">
-					Esbocei os requisitos, conversei com a pessoa que ia ficar encarregue de tratar dos dois websites e, apesar de inicialmente ter previsto o recurso ao Laravel, optei pelo WordPress, uma vez que era uma ferramenta já conhecida da pessoa encarregue da gestão dos websites, permitia uma rápida produção e existiam já os plugins necessários, <span className="text-white font-bold">aplicando o grande princípio: não é preciso inventar a roda quando já existem soluções</span>.
+					I sketched out the requirements, talked to the person who would be responsible for managing the two websites, and although I initially planned to use Laravel, I opted for WordPress, as it was a tool already known to the person in charge, allowed for quick production, and the necessary plugins already existed,
+					<span className="text-white font-bold">applying the great principle: no need to reinvent the wheel when there are already solutions</span>.
 				</p>
-				<p className="p-normal">O resultado são estes dois websites. Os logotipos também são da minha autoria.</p>
+				<p className="p-normal">The result is these two websites. The logos are also my work.</p>
 				<div className="flex gap-4 mt-3 text-white/50 ">
 					<Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"
-						href="/#projectos"
+						href="/en#projectos"
 					>
 						<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>
-						voltar
+						back
 					</Link>
 					<Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"

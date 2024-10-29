@@ -3,7 +3,7 @@
 import SideBar from "../../Components/SideBar";
 import Link from "next/link";
 import Image from "next/image";
-import novePorOito from "../../img/novePorOito.jpeg";
+import novePorOito from "../../../img/novePorOito.jpeg";
 
 export default function NovePorOito() {
 	return (
@@ -20,16 +20,16 @@ export default function NovePorOito() {
 						className="rounded-lg ring-2 ring-offset-2 ring-white/50 w-2/3 mx-auto"
 					/>
 				</div>
-				<p className="p-normal">No que respeita à criação visual, este projecto foi dos que mais gozo me deu. O projecto incluía o branding total de uma empresa a ser criada, cuja actividade se centrava na oferta de um estúdio para ensaios e gravações, quer para música, quer para voz off.</p>
-				<p className="text-white font-bold"> O requisito? &quot;Preciso disso numa semana e o or&ccedil;amento &eacute; muito baixo.&quot;</p>
-				<p className="p-normal">Foi desenvolvido para um grupo de amigos, entre eles o meu irmão mais novo. No manual de normas poderá ver e ler todos os detalhes.</p>
+				<p className="p-normal">In terms of visual creation, this project was one of the most enjoyable. The project included the total branding of a company to be created, whose activity focused on offering a studio for rehearsals and recordings, both for music and voiceover.</p>
+				<p className="text-white font-bold">The requirement? &quot;I need this in a week and the budget is very low.&quot;</p>
+				<p className="p-normal">It was developed for a group of friends, including my younger brother. In the manual, you can see and read all the details.</p>
 				<div className="flex gap-4 mt-3 text-white/50 ">
 					<Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"
-						href="/#projectos"
+						href="/en#projectos"
 					>
 						<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>
-						voltar
+						back
 					</Link>
 					<Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"

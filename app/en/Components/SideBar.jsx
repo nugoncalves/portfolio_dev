@@ -8,10 +8,10 @@ library.add(faGithub, faLinkedin, faSquareXTwitter, faEnvelope);
 export default function SideBar({ activeComponent }) {
 	// Define o menu de navegação
 	const menu = [
-		["Sobre", "about", "#about"],
-		["Projetos", "projectos", "#projectos"],
+		["About", "about", "#about"],
+		["Projects", "projectos", "#projectos"],
 		["Stack", "stack", "#stack"],
-		["Interesses", "interesses", "#interesses"],
+		["Interests", "interesses", "#interesses"],
 		["Resumé", "resume", ""],
 	];
 
@@ -27,7 +27,7 @@ export default function SideBar({ activeComponent }) {
 				<h1 className="w-max font-extrabold text-4xl">Nuno Gonçalves</h1>
 				<h3 className="w-max font-bold py-1">Fullstack Developer</h3>
 				<p className="text-sm text-white/60 my-3 w-1/2">
-					Sou o Nuno, e depois de 30 anos com livros antigos, <span className="text-yellow font-bold">quis fazer-me programador.</span>
+					I am Nuno, and after more than 30 years with books, <span className="text-yellow font-bold">I wanted to become a developer</span>.
 				</p>
 				<nav className="hidden xl:block w-max py-4 xl:pt-12 xl:ps-12">
 					<ul className="flex xl:flex-col xl:gap-3 w-max text-white/60">
@@ -45,14 +45,14 @@ export default function SideBar({ activeComponent }) {
 						<li>
 							<a
 								className="group flex items-center text-xs uppercase hover:text-white cursor-pointer"
-								href="/en"
+								href="/"
 							>
-								(read in EN)
+								(ler em PT)
 							</a>
 						</li>
 					</ul>
 				</nav>
-			</div>{" "}
+			</div>
 			<div className="flex flex-row gap-3 text-2xl text-white/50 p-4">
 				<a
 					href="mailto:4YxQK@example.com"
