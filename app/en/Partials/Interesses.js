@@ -32,7 +32,7 @@ export default function Interesses() {
 				title="Emacs & Org Mode"
 				img={emacsOrg}
 				stack={["emacs"]}
-				links={[["config files", "/projecto/emacsOrg"]]}
+				links={[["config files", "https://github.com/nugoncalves/org-mode.git"]]}
 			>
 				<p>I enjoy writing and have never liked Office-lyke applications. On this journey, I discovered Emacs and immediately fell in love with its simplicity. Just us and the text. Along the way, I created my own workflow based on the GTD system in org-mode. Here’s the result: no more Google Calendar.</p>
 			</Projecto>

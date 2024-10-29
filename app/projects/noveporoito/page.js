@@ -33,7 +33,7 @@ export default function NovePorOito() {
 					</Link>
 					<Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"
-						href="/img/noveporoit_mn.pdf"
+						href="/pdf/noveporoito_mn.pdf"
 						target="_blank"
 					>
 						<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>

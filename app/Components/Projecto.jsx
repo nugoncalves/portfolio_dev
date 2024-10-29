@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Projecto({ title = "", children, img, stack = [], links = [] }) {
+export default function Projecto({ title = "", children, img, stack = [], links = [], target = "" }) {
 	return (
 		<div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-3 p-4 border border-transparent transition-all ease-in-out durantion-300 hover:border hover:border-gray-700 rounded-lg hover:shadow-xl hover:bg-slate-600/20">
 			<div className="p-1">
@@ -32,6 +32,7 @@ export default function Projecto({ title = "", children, img, stack = [], links 
 							className="group flex items-center text-sm py-2 uppercase hover:text-white"
 							key={link[0]}
 							href={link[1]}
+							target={target}
 						>
 							<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>
 							{link[0]}

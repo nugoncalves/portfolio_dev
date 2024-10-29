@@ -44,7 +44,7 @@ export default function EclecticaApp() {
 					</Link>
 					<Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"
-						href="/#projectos"
+						href="https://demo.eclectica-app.com/"
 						target="_blank"
 					>
 						<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>
@@ -52,7 +52,7 @@ export default function EclecticaApp() {
 					</Link>
 					<Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"
-						href="/#projectos"
+						href="https://github.com/nugoncalves/eclectica-app.git"
 						target="_blank"
 					>
 						<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>

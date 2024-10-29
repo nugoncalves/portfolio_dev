@@ -32,17 +32,17 @@ export default function SebastaoAlves() {
 						<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>
 						voltar
 					</Link>
-					<Link
+					{/* <Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"
 						href="/#projectos"
 						target="_blank"
 					>
 						<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>
 						website
-					</Link>
+					</Link> */}
 					<Link
 						className="group flex items-center text-sm py-2 uppercase hover:text-white"
-						href="/#projectos"
+						href="https://github.com/nugoncalves/sebastiaoalves"
 						target="_blank"
 					>
 						<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-6"></span>

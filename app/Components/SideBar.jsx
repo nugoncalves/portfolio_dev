@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faSquareXTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -12,7 +13,6 @@ export default function SideBar({ activeComponent }) {
 		["Projetos", "projectos", "#projectos"],
 		["Stack", "stack", "#stack"],
 		["Interesses", "interesses", "#interesses"],
-		["Resumé", "resume", ""],
 	];
 
 	//scroll para a div
@@ -43,19 +43,30 @@ export default function SideBar({ activeComponent }) {
 							</li>
 						))}{" "}
 						<li>
-							<a
+							<Link
+								className="group flex items-center uppercase hover:text-white cursor-pointer"
+								href="/pdf/Resume_pt.pdf"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<span className="h-px w-2 mr-1 bg-white/50 transition-all group-hover:w-12 group-hover:bg-white"> </span>
+								resumé
+							</Link>
+						</li>
+						<li>
+							<Link
 								className="group flex items-center text-xs uppercase hover:text-white cursor-pointer"
 								href="/en"
 							>
 								(read in EN)
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</nav>
 			</div>{" "}
 			<div className="flex flex-row gap-3 text-2xl text-white/50 p-4">
 				<a
-					href="mailto:4YxQK@example.com"
+					href="mailto:nmrgoncalves@gmail.com"
 					className="hover:text-white"
 					target="_blank"
 					rel="noreferrer"
