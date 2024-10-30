@@ -45,7 +45,7 @@ export default function SideBar({ activeComponent }) {
 						<li>
 							<Link
 								className="group flex items-center uppercase hover:text-white cursor-pointer"
-								href="/pdf/Resume_pt.pdf"
+								href="/pdf/Resume_EN.pdf"
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -66,7 +66,7 @@ export default function SideBar({ activeComponent }) {
 			</div>
 			<div className="flex flex-row gap-3 text-2xl text-white/50 p-4">
 				<a
-					href="mailto:4YxQK@example.com"
+					href="mailto:nuno@nunogoncalves.dev"
 					className="hover:text-white"
 					target="_blank"
 					rel="noreferrer"

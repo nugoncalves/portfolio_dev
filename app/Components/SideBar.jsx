@@ -66,7 +66,7 @@ export default function SideBar({ activeComponent }) {
 			</div>{" "}
 			<div className="flex flex-row gap-3 text-2xl text-white/50 p-4">
 				<a
-					href="mailto:nmrgoncalves@gmail.com"
+					href="mailto:nuno@nunogoncalves.dev"
 					className="hover:text-white"
 					target="_blank"
 					rel="noreferrer"
